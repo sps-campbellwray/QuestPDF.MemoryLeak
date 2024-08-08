@@ -31,6 +31,26 @@ namespace MemoryLeak.Controllers
             }).GenerateImages();
         }
 
+        [HttpGet("parallel")]
+        public async Task GetImagesParallelAsync(int count = 10)
+        {
+            QuestPDF.Settings.License = LicenseType.Community;
+
+            Parallel.For(0, count, i =>
+            {
+                var images = Document.Create(container =>
+                {
+                    container.Page(page =>
+                    {
+                        page.Size(PageSizes.A4);
+                        page.Margin(2, Unit.Centimetre);
+                        page.PageColor(Colors.White);
+                        page.DefaultTextStyle(x => x.FontSize(20));
+                    });
+                }).GenerateImages();
+            });
+        }
+
         [HttpGet("collect")]
         public async Task CollectGarbage(int iterations = 1000, int wait = 0)
         {
