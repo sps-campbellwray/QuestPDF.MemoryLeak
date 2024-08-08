@@ -1,23 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestPDF.ReportSample", "QuestPDF.ReportSample\QuestPDF.ReportSample.csproj", "{6718C16B-CB31-46E0-A9A6-920EBC36BE4D}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestPDF.ReportSample", "QuestPDF.ReportSample\QuestPDF.ReportSample.csproj", "{6718C16B-CB31-46E0-A9A6-920EBC36BE4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestPDF", "QuestPDF\QuestPDF.csproj", "{1FA7DFE3-8FBF-4D14-887F-03231B75F93F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestPDF", "QuestPDF\QuestPDF.csproj", "{1FA7DFE3-8FBF-4D14-887F-03231B75F93F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestPDF.UnitTests", "QuestPDF.UnitTests\QuestPDF.UnitTests.csproj", "{4D0CC9F4-46D9-4015-AE24-08A5B5CC7AE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestPDF.UnitTests", "QuestPDF.UnitTests\QuestPDF.UnitTests.csproj", "{4D0CC9F4-46D9-4015-AE24-08A5B5CC7AE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestPDF.Examples", "QuestPDF.Examples\QuestPDF.Examples.csproj", "{8BD0A2B4-2DC1-47BA-9724-C158320D9CAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestPDF.Examples", "QuestPDF.Examples\QuestPDF.Examples.csproj", "{8BD0A2B4-2DC1-47BA-9724-C158320D9CAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestPDF.Previewer.Examples", "QuestPDF.Previewer.Examples\QuestPDF.Previewer.Examples.csproj", "{CA413A39-038F-4A9F-B56F-0E5413B6B158}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestPDF.Previewer.Examples", "QuestPDF.Previewer.Examples\QuestPDF.Previewer.Examples.csproj", "{CA413A39-038F-4A9F-B56F-0E5413B6B158}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{73123649-216A-47B4-BFB2-DADF13FBE75D}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestPDF.Previewer", "QuestPDF.Previewer\QuestPDF.Previewer.csproj", "{B2FF6003-3A45-4A78-A85D-B86C7F01D054}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestPDF.Previewer", "QuestPDF.Previewer\QuestPDF.Previewer.csproj", "{B2FF6003-3A45-4A78-A85D-B86C7F01D054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestPDF.LayoutTests", "QuestPDF.LayoutTests\QuestPDF.LayoutTests.csproj", "{37DC7D64-CBAC-4C00-B4CE-CA50ABF764EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestPDF.LayoutTests", "QuestPDF.LayoutTests\QuestPDF.LayoutTests.csproj", "{37DC7D64-CBAC-4C00-B4CE-CA50ABF764EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryLeak", "MemoryLeak\MemoryLeak.csproj", "{B82A88DC-18BF-4632-9725-EF0F88F2001B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,5 +58,12 @@ Global
 		{37DC7D64-CBAC-4C00-B4CE-CA50ABF764EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37DC7D64-CBAC-4C00-B4CE-CA50ABF764EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37DC7D64-CBAC-4C00-B4CE-CA50ABF764EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82A88DC-18BF-4632-9725-EF0F88F2001B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82A88DC-18BF-4632-9725-EF0F88F2001B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82A88DC-18BF-4632-9725-EF0F88F2001B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82A88DC-18BF-4632-9725-EF0F88F2001B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
